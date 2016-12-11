@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <script src="jquery-3.1.1.min.js" charset="utf-8"></script>
+    <script src="client.js" charset="utf-8"></script>
+    <link rel="style.css" href="/css/master.css">
+    <meta charset="utf-8">
+    <title>Weekend 03 Calculator</title>
+  </head>
+  <body>
+    <h1>Weekend 03 - Calculator</h1>
+      <div class="takeInfo">
+        <input type="number" id="numberX" placeholder="First Number">
+        <select class="operator">
+          <option value="+">+</option>
+          <option value="-">-</option>
+          <option value="*">*</option>
+          <option value="/">/</option>
+        </select>
+        <input type="number" id="numberY" placeholder="Second Number">
+        <button type="button" id="total">=</button>
+      </div>
+      <div class="answer">
+        <h2>Answer: </h2>
+        <div id="outputDiv"></div>
+      </div>
+      <div class="startOver">
+        <button type="button" id="clearForm">Clear</button>
+      </div>
+  </body>
+</html>
