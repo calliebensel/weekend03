@@ -1,0 +1,43 @@
+body {
+  font-family: 'Lato', sans-serif;
+  background-image: url("DSC_6354.jpg");
+  background-repeat: repeat-x;
+  background-position: right top;
+  background-attachment: fixed;
+}
+
+#total {
+  background-color: #008CBA;
+  border: none;
+  color: white;
+  padding: none;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+#total:hover {background-color: #3e8e41}
+
+#total:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+#clearForm {
+  background-color: #008CBA;
+  border: none;
+  color: white;
+  padding: none;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+#clearForm:hover {background-color: #3e8e41}
+
+#clearForm:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
